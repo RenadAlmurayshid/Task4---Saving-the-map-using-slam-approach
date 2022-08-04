@@ -21,8 +21,14 @@ $ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 
 -  Turtlebot3 packages installation 
+
+
 $ sudo apt-get install ros-melodic-dynamixel-sdk
+
+
 $ sudo apt-get install ros-melodic-turtlebot3-msgs
+
+
 $ sudo apt-get install ros-melodic-turtlebot3
 
 -  Selecting either burger or waffle name and setting it command
