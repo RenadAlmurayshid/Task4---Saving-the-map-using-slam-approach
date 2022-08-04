@@ -47,20 +47,35 @@ $ cd ~/catkin_ws && catkin_make
 
 -  Launch the simulation world 
 Since I have chosen burger these are my commands 
+
+
 $ export TURTLEBOT3_MODEL=burger
+
+
+
 $ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
 -  Start turtlebot3 up 
+
+
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 4)  On the left side you will see SLAM operation go there 
 -  Launch simulation world 
 Choose the type you have (Mine is melodic)
+
+
 $ export TURTLEBOT3_MODEL=burger
+
+
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 -  Go to SLAM node and start running it with these commands 
+
+
 $ export TURTLEBOT3_MODEL=burger
+
+
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
 -  Get the teleportation node running by using these commands 
